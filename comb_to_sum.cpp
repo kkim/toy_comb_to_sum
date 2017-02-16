@@ -57,7 +57,7 @@ combs get_comb(const vector<long>& s, int last_ind, long v)
   combs vv, vv0;
   get_comb_call++;
   
-  if(get_comb_call%100000==0) fprintf(stdout,"%d\r",get_comb_call);
+  if(get_comb_call%100000==0) fprintf(stdout,"%ld\r",get_comb_call);
 
   if(s[last_ind]==v)
   {
